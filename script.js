@@ -147,7 +147,6 @@ fecha: fechaSeleccionada
   });
 
 guardarTareas();
-mostrarTareas();
 
  input.value = "";
     fecha.value = "";
@@ -180,5 +179,6 @@ input.addEventListener("keypress", (e) => {
 });
 
 cargarTareas();
+
 
 
